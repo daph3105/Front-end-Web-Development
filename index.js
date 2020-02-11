@@ -1,3 +1,5 @@
+//https://github.com/JeffreyATW/fwd/blob/master/series10/class5/assignment.md
+
 let createName = function (first, last){
 return first + " "+last
 }
