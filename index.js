@@ -5,10 +5,14 @@ return first + " "+last
 }
 
 let askName = function (){
+
+do{
     let first = prompt("Please enter your first name", "First Name");
     let last = prompt("Please enter your last name", "Last Name");
-    let fullName = createName(first,last)
+    var fullName = createName(first,last)
     alert("Your name is "+fullName)
+}
+while(fullName.toUpperCase()!="BOB JONES")    
 }
 
 askName()
