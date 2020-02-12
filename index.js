@@ -15,4 +15,6 @@ do{
 while(fullName.toUpperCase()!="BOB JONES")    
 }
 
-askName()
+let asker = document.getElementById("click")
+
+asker.onclick = function(){askName()}
